@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -8,11 +8,10 @@
 </head>
 <body>
     <ul>
-        <li><a href="http://facebook.com" target="_blank">lifestyle</a></li>
-        <li><a href="http://linkedin.com" target="_blank">photodiary</a></li>
-        <li><a href="https://twitter.com" target="_blank">music</a></li>
-        <li><a href="https://reddit.com" target="_blank">travel</a></li>
-
+        <li><a href="" target="_blank">lifestyle</a></li>
+        <li><a href="" target="_blank">photodiary</a></li>
+        <li><a href="" target="_blank">music</a></li>
+        <li><a href="" target="_blank">travel</a></li>
     </ul>
     <img src="img/photo1.jpg" alt="">
     <p>Lifestyle</p>
