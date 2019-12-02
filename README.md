@@ -12,7 +12,6 @@
         <li><a href="" target="_blank">photodiary</a></li>
         <li><a href="" target="_blank">music</a></li>
         <li><a href="" target="_blank">travel</a></li>
-
     </ul>
     <img src="img/photo1.jpg" alt="">
     <p>Lifestyle</p>
