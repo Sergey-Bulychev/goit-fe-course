@@ -14,11 +14,19 @@ body{
     font-size: 14px;
     line-height: 24px;
 }
-
+.container{
+     width: 900px;
+     margin: 0 auto;
+}
 nav{
     text-align: center;
 }
-
+.navigation{
+    margin: o;
+    padding: 0;
+    font-size: 0;
+    display: block;
+}
 .navigation li{
     list-style: none;
     display: inline-block;
@@ -30,34 +38,42 @@ nav{
     color: black;
     text-transform: uppercase;
     text-decoration: none;
+    font-size: 14px;
 }
     
 a:hover{
     color: #03a9f4;
 }
 
-.text{
-    width: 900px;
-    margin: 0 auto;
-    }
+header{
+    padding-top: 70px;
+    padding-bottom: 90px;
+}
 section{
     margin: 0px;
     padding: 0px;
+    font-size: 0;
 }
 
 article{
     display: inline-block;
     width: 420px;
-    margin-top: 85px;
-    margin-right: 56px;
+    margin-right: 60px;
 }
 article:nth-child(2n){
     margin-right: 0px;
 }
-h3{
-    font-size: 30px;
-}
 
+article h3{
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 38px;
+}
+article p{
+    margin: 0;
+    font-size: 14px;
+    margin-bottom: 26px
+}
 
 button{
     font-size: 20px;
@@ -67,4 +83,7 @@ button{
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+button:hover{
+    color: #03a9f4;
 }
