@@ -3,7 +3,7 @@
   padding: 0;
 }
 .wrapper {
-  width: 1170px;
+  width: 1110px;
   margin: 0 auto;
 }
 /*header*/
@@ -33,7 +33,6 @@ a:hover {
   line-height: 32px;
   font-weight: lighter;
   text-transform: uppercase;
-
 }
 .logo::first-letter {
   color: #1abc9c;
@@ -87,7 +86,7 @@ header {
 .item-block:hover .img,
 .item-block:hover .name-item,
 .item-block:hover .price-item {
-  background: green;
+  background: #1abc9c;
 }
 
 .item-block {
@@ -99,16 +98,23 @@ header {
 }
 
 .item-block:hover .img::before {
-  background-color: gray;
+  background-color: #e9f0fd;
 }
 
 .name-item {
   padding: 14px;
+  font-family: "Roboto black", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: #ffffff;
 }
 
 .price-item {
   text-align: center;
   padding: 14px 0;
+  font-family: "Roboto black", sans-serif;
+  font-size: 18px;
+  color: #ffffff;
 }
 .img {
   width: 255px;
@@ -137,41 +143,76 @@ header {
   background: #8c8c8c;
 }
 
+
+/*Main*/
+
+
+.h2_2 {
+  position: relative;
+  font-family: "Roboto black", sans-serif;
+  font-weight: 900;
+  font-size: 48px;
+  color: #515151;
+  text-align: center;
+  letter-spacing: -0.1em;
+  margin-bottom: 80px;
+}
+.h2_2::after {
+  content: "";
+  position: absolute;
+  top: 67px;
+  right: calc(50% - 105px);
+  height: 7px;
+  width: 210px;
+  background-color: #4ec6ab;
+}
+.blog-block {
+  float: left;
+  display: block;
+  margin-right: 20px;
+  margin-bottom: 30px;
+  max-width: 350px;
+}
+
+.clearfix{
+  display: block;
+  content: "";
+  clear: both;
+}
+.text{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  line-height: 26px;
+}
+.signature{
+  position: relative;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 26px;
+  margin-bottom: 50px;
+}
+.signature::after {
+  content: "";
+  position: absolute;
+  top: 67px;
+  left: 0; 
+  /* right: 105px; */
+  height: 3px;
+  width: 135px;
+  background-color: #4ec6ab;
+}
+a{
+  width: 160px;
+  height: 50px;
+  background-color: #4ec6ab;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  color: #ffffff;
+}
 main::after {
   content: "";
   clear: both;
   display: block;
-}
-
-/*Main*/
-/*Footer*/
-.parent {
-  width: 100px;
-}
-.child {
-  width: 100px;
-  height: 100px;
-  background: gray;
-  border: 1px solid black;
-}
-.child:hover {
-  background: red;
-}
-.parent:hover .child1 {
-  background: blue;
-}
-.parent:hover .child2 {
-  background: lightblue;
-}
-.parent:hover .child3 {
-  background: lightgreen;
-}
-
-.quote::before {
-  content: "-->";
-  font-size: 30px;
-}
-
-.quote::after {
-  content: '"';
 }
