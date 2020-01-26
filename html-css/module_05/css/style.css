@@ -23,7 +23,6 @@ nav {
   font-weight: bold;
   line-height: 11px;
   text-align: right;
-  
 }
 .navigation li {
   display: inline-block;
@@ -50,7 +49,7 @@ nav {
   text-decoration: none;
   color: #000000;
 }
-.logo:hover{
+.logo:hover {
   color: #1abc9c;
 }
 .logo::first-letter {
@@ -71,32 +70,25 @@ header {
 /* section */
 
 .slider {
- position: relative;
- width: 100%;
- height: 600px;
-}
-
-.slider:hover .sl::before{
-  background-color:  rgb(0, 0, 0);
-  opacity: 0.52;
-  z-index: 2;
-}
-
-.sl{
   position: relative;
   width: 100%;
   height: 600px;
 }
+.sl2 {
+  background: #000000;
+}
 
-.sl::before{
-  content: "";
-  position: absolute;
+.sl2:hover .sl {
+  opacity: 0.6;
+}
+
+.sl {
+  /* position: relative; */
   width: 100%;
   height: 600px;
-  /* top: 0;
-  left: 0; */
-  z-index: -1;
-
+}
+.slider ul li {
+  list-style: none;
 }
 
 .header-slide {
@@ -120,7 +112,7 @@ header {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.slider:hover .angle-slide{
+.slider:hover .angle-slide {
   z-index: 1;
 }
 .angle-slide {
@@ -128,13 +120,13 @@ header {
   font-size: 100px;
   line-height: 11px;
   top: 245px;
-  left: 255px;
+  left: 155px;
   /* color: #ffffff; */
   z-index: -1;
 }
 
- .pe-7s-angle-left:hover,
- .pe-7s-angle-right:hover {
+.pe-7s-angle-left:hover,
+.pe-7s-angle-right:hover {
   width: 105px;
   height: 105px;
   background-color: rgb(78, 198, 171);
@@ -147,24 +139,20 @@ header {
   color: #ffffff;
   background-color: transparent;
   border: none;
- 
 }
 
- .pe-7s-angle-right {
+.pe-7s-angle-right {
   color: #ffffff;
   background-color: transparent;
   border: none;
- 
-} 
+}
 
 /* section title */
 
 .title {
   padding-top: 50px;
   padding-bottom: 100px;
-
 }
-
 
 .collection {
   position: relative;
@@ -204,10 +192,10 @@ header {
   background-color: rgb(0, 0, 0);
   opacity: 0.549;
 }
-.item-block:hover .icon{
+.item-block:hover .icon {
   z-index: 2;
 }
-.item-block:hover .pe-7s-cart{
+.item-block:hover .pe-7s-cart {
   z-index: 3;
 }
 
@@ -221,45 +209,46 @@ header {
   z-index: 1;
 }
 
-
-.icon{
+.icon {
   width: 100%;
   height: 100%;
   font-size: 30px;
   line-height: 32px;
   letter-spacing: -0.64px;
   text-align: center;
-  padding-bottom: 5px;
+  padding-bottom: 7px;
   position: absolute;
   top: 90px;
   z-index: -1;
   color: #ffffff;
-  }
-  
-  .pe-7s-like::before, .pe-7s-shuffle::before,.pe-7s-clock::before,.pe-7s-cart::before {
-    content: '';
-    display: inline-block;
-    padding-top: 3px;
-    vertical-align: middle;
-  }
-   .pe-7s-like, .pe-7s-shuffle, .pe-7s-clock{
-    width: 50px;
-    height: 50px;
-    border: solid 1px;
-    
-  } 
-  .pe-7s-like:hover, 
-  .pe-7s-shuffle:hover,
-  .pe-7s-clock:hover
-  {
-    background: #1abc9c;
-  }
-  .pe-7s-cart:hover{
-    background: #1abc9c;
-  
-  }
-  
-  .pe-7s-cart{
+}
+
+.pe-7s-like::before,
+.pe-7s-shuffle::before,
+.pe-7s-clock::before,
+.pe-7s-cart::before {
+  content: "";
+  display: inline-block;
+  padding-top: 3px;
+  vertical-align: middle;
+}
+.pe-7s-like,
+.pe-7s-shuffle,
+.pe-7s-clock {
+  width: 50px;
+  height: 50px;
+  border: solid 1px;
+}
+.pe-7s-like:hover,
+.pe-7s-shuffle:hover,
+.pe-7s-clock:hover {
+  background: #1abc9c;
+}
+.pe-7s-cart:hover {
+  background: #1abc9c;
+}
+
+.pe-7s-cart {
   position: absolute;
   top: 145px;
   left: 42px;
@@ -273,19 +262,16 @@ header {
   text-align: center;
   background-color: #323232;
   color: #ffffff;
-  }
-  
-  .cart{
-    display: inline-block;
-    font-size: 14px;
-    line-height: 32px;
-    letter-spacing: -0.28px;
-    vertical-align: middle;
-    color: #ffffff;
-  
-  }
+}
 
- 
+.cart {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 32px;
+  letter-spacing: -0.28px;
+  vertical-align: middle;
+  color: #ffffff;
+}
 
 .name-item {
   padding: 14px;
@@ -335,4 +321,3 @@ footer {
 .signature:hover {
   color: #45b8a3;
 }
-
