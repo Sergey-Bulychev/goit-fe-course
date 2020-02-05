@@ -23,7 +23,7 @@ nav {
   transition: color 200ms linear;
 }
 .site-logo:hover {
-  color: #fce38a;
+  color: #f38181;
 }
 .navigation {
   display: flex;
@@ -41,19 +41,21 @@ nav {
   text-decoration: none;
 }
 .navigation a:hover {
-  color: #fce38a;
+  color: #f38181;
 }
 .navigation a::after {
   display: flex;
-  background-color: #fce38a;
+  background-color: #f38181;
   content: "";
-  width: 50px;
+  min-width: 35px;
+  max-width: 70px;
   height: 3px;
   opacity: 0;
+  margin: 5px 0;
   transition: opacity 200ms linear, color 200ms linear;
 }
 .navigation a:hover::after {
-  background-color: #fce38a;
+  background-color: #f38181;
   opacity: 1;
 }
 
@@ -71,6 +73,7 @@ span {
   line-height: 36px;
   font-weight: 700;
   display: block;
+  padding-top: 10px;
 }
 .heading::after {
   content: "";
@@ -78,7 +81,8 @@ span {
   width: 60px;
   background-color: #f38181;
   display: block;
-  margin: 0 auto;
+  margin: 25px auto;
+  
 }
 .service {
   display: flex;
@@ -151,11 +155,15 @@ span {
   width: 380px;
   height: 470px;
   margin-bottom: 30px;
+  transition: translate  200ms  linear; 
 }
-.card:hover img {
+.card:hover img  {
   transform: translate(-10px, -10px);
   opacity: 1;
-  
+}
+.card:hover .back{
+  transform: translate(-10px, -10px);
+  opacity: 1;
 }
 .our_team li {
   position: relative;
@@ -163,8 +171,7 @@ span {
 .back{
   background: linear-gradient(
     rgba(243, 129, 129, 0.8),
-    rgba(252, 227, 138, 0.8)
-  );
+    rgba(252, 227, 138, 0.8));
   width: 380px;
   height: 470px;
   position: absolute;
@@ -174,7 +181,7 @@ span {
   align-items: center;
   list-style: none;
   opacity: 0;
-  transition: opacity  200ms  linear;
+  transition: opacity  200ms  linear; 
 }
 .back li {
   width: 50px;
@@ -218,6 +225,7 @@ span {
 
 footer {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   align-items: center;
   min-height: 62px;
@@ -230,11 +238,9 @@ footer {
   transition: color 200ms linear;
 }
 .signature:hover {
-  color: #f9c0c0;
+  color: #f38181;
 }
 .footer-email {
-  display: flex;
-  justify-content: flex-end;
   width: 230px;
   height: 40px;
 }
@@ -248,3 +254,4 @@ footer {
   font-weight: 700;
   color: #ffffff;
 }
+
