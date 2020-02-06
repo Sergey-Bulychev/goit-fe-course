@@ -102,7 +102,7 @@ span {
   font-size: 15px;
   line-height: 24px;
 }
-.service-li {
+.service li{
   width: 380px;
   padding-left: 80px;
   box-sizing: border-box;
@@ -110,25 +110,28 @@ span {
   background-position-x: 7%;
   margin-bottom: 100px;
 }
-.service-li:nth-child(n + 4) {
+/* .service-li {
+  
+} */
+.service li:nth-child(n + 4) {
   margin-bottom: 0px;
 }
-.service-li:nth-child(1) {
+.li-1 {
   background-image: url(/img/png/service/ALARM.png);
 }
-.service-li:nth-child(2) {
+.li-2 {
   background-image: url(/img/png/service/LINE_GRAPH.png);
 }
-.service-li:nth-child(3) {
+.li-3 {
   background-image: url(/img/png/service/COMPUTER_OK.png);
 }
-.service-li:nth-child(4) {
+.li-4 {
   background-image: url(/img/png/service/BOOK_2.png);
 }
-.service-li:nth-child(5) {
+.li-5 {
   background-image: url(/img/png/service/HOME.png);
 }
-.service-li:nth-child(6) {
+.li-6 {
   background-image: url(/img/png/service/IMAGE.png);
 }
 .team {
