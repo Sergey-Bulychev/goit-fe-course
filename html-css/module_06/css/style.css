@@ -110,14 +110,12 @@ span {
   background-position-x: 7%;
   margin-bottom: 100px;
 }
-/* .service-li {
-  
-} */
+
 .service li:nth-child(n + 4) {
   margin-bottom: 0px;
 }
 .li-1 {
-  background-image: url(/img/png/service/ALARM.png);
+  background-image: url(/img/png/service/ALARM.jpg);
 }
 .li-2 {
   background-image: url(/img/png/service/LINE_GRAPH.png);
