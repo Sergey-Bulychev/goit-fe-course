@@ -118,19 +118,19 @@ span {
   background-image: url('../img/png/service/ALARM.png');
 }
 .li-2 {
-  background-image: url(/img/png/service/LINE_GRAPH.png);
+  background-image: url('../img/png/service/LINE_GRAPH.png');
 }
 .li-3 {
-  background-image: url(/img/png/service/COMPUTER_OK.png);
+  background-image: url('../img/png/service/COMPUTER_OK.png');
 }
 .li-4 {
-  background-image: url(/img/png/service/BOOK_2.png);
+  background-image: url('../img/png/service/BOOK_2.png');
 }
 .li-5 {
-  background-image: url(/img/png/service/HOME.png);
+  background-image: url('../img/png/service/HOME.png');
 }
 .li-6 {
-  background-image: url(/img/png/service/IMAGE.png);
+  background-image: url('../img/png/service/IMAGE.png');
 }
 .team {
   margin-bottom: 85px;
@@ -190,22 +190,22 @@ span {
   background-color: #fce38a;
 }
 .facebook {
-  background-image: url(/img/png/team/facebook.png);
+  background-image: url('../img/png/team/facebook.png');
   background-repeat: no-repeat;
   background-position: center;
 }
 .instagram {
-  background-image: url(/img/png/team/instagram.png);
+  background-image: url('../img/png/team/instagram.png');
   background-repeat: no-repeat;
   background-position: center;
 }
 .pinterest {
-  background-image: url(/img/png/team/pinterest.png);
+  background-image: url('../img/png/team/pinterest.png');
   background-repeat: no-repeat;
   background-position: center;
 }
 .twitter {
-  background-image: url(/img/png/team/twitter.png);
+  background-image: url('../img/png/team/twitter.png');
   background-repeat: no-repeat;
   background-position: center;
 }
