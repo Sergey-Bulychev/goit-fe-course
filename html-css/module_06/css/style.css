@@ -115,7 +115,7 @@ span {
   margin-bottom: 0px;
 }
 .li-1 {
-  background-image: url(../img/png/service/ALARM.png);
+  background-image: url('../img/png/service/ALARM.png');
 }
 .li-2 {
   background-image: url(/img/png/service/LINE_GRAPH.png);
