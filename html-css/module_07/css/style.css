@@ -1,0 +1,121 @@
+/* montserrat-regular - latin */
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Montserrat Regular"), local("Montserrat-Regular"),
+    url("../fonts/montserrat-v14-latin/montserrat-v14-latin-regular.woff2")
+      format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../fonts/montserrat-v14-latin/montserrat-v14-latin-regular.woff")
+      format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* montserrat-700 - latin */
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Montserrat Bold"), local("Montserrat-Bold"),
+    url("../fonts/montserrat-v14-latin/montserrat-v14-latin-700.woff2")
+      format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../fonts/montserrat-v14-latin/montserrat-v14-latin-700.woff")
+      format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* roboto-slab-regular - latin */
+@font-face {
+  font-family: "Roboto Slab";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""),
+    url("../fonts/roboto-slab-v11-latin/roboto-slab-v11-latin-regular.woff2")
+      format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../fonts/roboto-slab-v11-latin/roboto-slab-v11-latin-regular.woff")
+      format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* Droid Serif */
+@font-face {
+  font-family: "Droid Serif";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""),
+    url("../fonts/Droid-Serif-V2/Droid-Serif-V2.woff2") format("woff2"),
+    url("../fonts/Droid-Serif-V2/Droid-Serif-V2.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Wisdom Script AI";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""),
+    url("../fonts/Wisdom-Script-AI/Wisdom-Script-AI.woff2") format("woff2"),
+    url("../fonts/Wisdom-Script-AI/Wisdom-Script-AI.woff") format("woff");
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 940px;
+  margin: 0 auto;
+}
+.site-logo {
+  display: flex;
+  font-family: "Wisdom Script AI";
+  font-style: normal;
+  font-weight: 400;
+  text-decoration: none;
+  font-size: 26px;
+  line-height: 41px;
+  color: #000000;
+  transition: color 200ms linear;
+}
+.site-logo:hover {
+  color: #fed136;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 55px;
+}
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  min-width: 485px;
+}
+.navigation a {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 41px;
+  text-decoration: none;
+  color: #000000;
+  transition: color 200ms linear;
+}
+.navigation a:hover {
+  color: #fed136;
+}
+
+.heading {
+  font-family: "Montserrat", sans-serif;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 70px;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 25px;
+}
+p {
+  text-align: center;
+  font-family: "Droid Serif";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #777777;
+}
