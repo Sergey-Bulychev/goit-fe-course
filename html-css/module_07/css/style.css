@@ -183,7 +183,7 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("../img/Map_Image.jpg.png");
+  background-image: url('../img/Map_Image.jpg.png');
   min-height: 675px;
 }
 
