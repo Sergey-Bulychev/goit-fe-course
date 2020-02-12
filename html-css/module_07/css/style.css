@@ -183,7 +183,10 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url('../img/Map_Image.jpg.png');
+  background-color: #000000;
+  background-image: url('../img/Map_Image.png');
+  background-repeat: no-repeat;
+  background-position: right;
   min-height: 675px;
 }
 

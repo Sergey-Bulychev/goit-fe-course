@@ -66,6 +66,7 @@ nav {
   line-height: 29px;
   padding-bottom: 100px;
   padding-top: 90px;
+  color: #333333;
 }
 span {
   font-family: "Montserrat", sans-serif;
@@ -74,6 +75,7 @@ span {
   font-weight: 700;
   display: block;
   padding-top: 10px;
+  color: #333333;
 }
 .heading::after {
   content: "";
@@ -96,11 +98,14 @@ span {
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
   line-height: 17px;
+  color: #333333;
+  text-transform: uppercase;
 }
 .text-li {
   font-family: "Roboto", sans-serif;
   font-size: 15px;
   line-height: 24px;
+  color: #999999;
 }
 .service li{
   width: 380px;
@@ -143,6 +148,7 @@ span {
   text-align: center;
   margin: 0 auto;
   margin-bottom: 95px;
+  color: #999999;
 }
 .our_team {
   display: flex;
@@ -216,12 +222,15 @@ span {
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
   line-height: 17px;
+  color: #333333;
+  text-transform: uppercase;
 }
 .team-profi {
   font-family: "Roboto", sans-serif;
   font-size: 15px;
   line-height: 24px;
   font-style: italic;
+  color: #999999;
 }
 
 footer {
@@ -244,15 +253,18 @@ footer {
 .footer-email {
   width: 230px;
   height: 40px;
+  border-right: 0px;
+  
 }
 .footer-botton{
   width: 150px;
-  height: 40px;
+  height: 45px;
   background: #95e1d3;
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
   line-height: 17px;
   font-weight: 700;
   color: #ffffff;
+  margin-left: -7px;
 }
 
