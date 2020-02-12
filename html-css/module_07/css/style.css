@@ -158,8 +158,10 @@ nav {
   letter-spacing: -0.35px;
   color: #777777;
 }
-.icon-1::before, .icon-2::before, .icon-3::before{
-  content: '';
+.icon-1::before,
+.icon-2::before,
+.icon-3::before {
+  content: "";
   display: block;
   width: 74px;
   height: 74px;
@@ -170,23 +172,117 @@ nav {
 }
 
 .icon-1::before {
-  background-image: url('../img/Icon-Basket.png');
-  
+  background-image: url("../img/Icon-Basket.png");
 }
-.icon-2::before{
-  background-image: url('../img/Icon-Laptop.png');
+.icon-2::before {
+  background-image: url("../img/Icon-Laptop.png");
 }
-.icon-3::before{
-  background-image: url('../img/Icon-Locked.png');
+.icon-3::before {
+  background-image: url("../img/Icon-Locked.png");
 }
 .box {
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #000000;
-  background-image: url('../img/Map_Image.png');
+  background-image: url("../img/Map_Image.png");
   background-repeat: no-repeat;
   background-position: right;
   min-height: 675px;
 }
 
+.heading-box {
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+  letter-spacing: -0.8px;
+}
+.heading-s {
+  font-family: "Droid Serif";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #777777;
+  text-align: center;
+  padding-bottom: 75px;
+}
+.form-send {
+  display: flex;
+  justify-content: space-between;
+  min-width: 940px;
+  margin-bottom: 35px;
+  height: 210px;
+}
+.user-date {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: baseline;
+  width: 456px;
+  height: 210px;
+}
+.user-date input {
+  width: 456px;
+  height: 54px;
+  border: none;
+  border-radius: 3px;
+  padding-left: 20px;
+
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 17px;
+  color: #bbbbbb;
+  letter-spacing: -0.35px;
+  text-transform: uppercase;
+}
+
+.textarea {
+  display: inline-block;
+  width: 456px;
+  height: 210px;
+  border: none;
+  border-radius: 3px;
+  resize: none;
+  overflow: auto;
+
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 17px;
+  columns: #bbbbbb;
+  letter-spacing: -0.35px;
+  text-transform: uppercase;
+}
+
+.textarea::placeholder {
+  padding: 0;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+.send {
+  display: block;
+  min-width: 240px;
+  min-height: 65px;
+  margin: 0 auto;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 22px;
+  text-align: center;
+  border: none;
+  border-radius: 3px;
+  background-color: #fed136;
+}
