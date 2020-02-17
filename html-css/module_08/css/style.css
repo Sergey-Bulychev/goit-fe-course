@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  min-width: 320px;
+  margin: 0 auto;
+  height: auto;
+}
+
+.image {
+  background-image: url("../img/Mobile.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+  text-align: center;
+}
+.menu-logins {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  align-items: center;
+  width: 170px;
+  margin: 0 auto;
+  padding-bottom: 130px;
+}
+.menu-logins a {
+  width: 80px;
+  height: 40px;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: "Montserrat";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 1.2;
+  padding: 10px;
+}
+
+.menu-logins a:hover {
+  border: 2px solid #ffffff;
+
+  border-radius: 20px;
+}
+.logo {
+  font-size: 20px;
+  font-family: "Montserrat";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+  letter-spacing: 1px;
+  text-decoration: none;
+  padding-bottom: 40px;
+  /* left: 69.88px;
+  top: 169px;
+  z-index: 12;
+  position: absolute; */
+}
+
+.Log_in {
+  font-size: 14px;
+  font-family: "Montserrat";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: center;
+  -moz-transform: matrix(0.99899373141512, 0, 0, 1, 0, 0);
+  -webkit-transform: matrix(0.99899373141512, 0, 0, 1, 0, 0);
+  -ms-transform: matrix(0.99899373141512, 0, 0, 1, 0, 0);
+  position: absolute;
+  left: 86.416px;
+  top: 29.382px;
+  z-index: 14;
+}
