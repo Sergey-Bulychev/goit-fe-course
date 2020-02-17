@@ -97,6 +97,7 @@ nav {
   font-weight: 400;
   line-height: 41px;
   text-decoration: none;
+  text-transform: uppercase;
   color: #000000;
   transition: color 200ms linear;
 }
@@ -109,7 +110,7 @@ nav {
   font-size: 40px;
   font-style: normal;
   font-weight: 700;
-  line-height: 75px;
+  line-height: 45px;
   text-align: center;
   text-transform: uppercase;
   color: #222222;
@@ -129,7 +130,7 @@ nav {
 .content {
   display: flex;
   justify-content: space-between;
-  min-height: 334px;
+  /* min-height: 334px; */
 }
 .content li {
   display: flex;
@@ -145,13 +146,13 @@ nav {
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
-  line-height: 75px;
-  padding-bottom: 20px;
+  line-height: 25px;
+  margin-bottom: 20px;
   color: #222222;
 }
 .content p {
-  font-family: "Droid Serif";
-  font-style: italic;
+  font-family: "Roboto Slab";
+  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
@@ -216,21 +217,23 @@ nav {
 .form-send {
   display: flex;
   justify-content: space-between;
-  min-width: 940px;
+  /* min-width: 940px; */
   margin-bottom: 35px;
-  height: 210px;
+  /* height: 210px; */
 }
 .user-date {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: baseline;
-  width: 456px;
-  height: 210px;
+  width: calc(50% - 15px);
+  /* height: 210px; */
 }
 .user-date input {
-  width: 456px;
-  height: 54px;
+ 
+  width: 100%;
+  padding: 20px 0 20px 0;
+  /* height: 54px; */
   border: none;
   border-radius: 3px;
   padding-left: 20px;
@@ -244,16 +247,19 @@ nav {
   letter-spacing: -0.35px;
   text-transform: uppercase;
 }
+.user-date input:nth-child(-n + 2){
+  margin-bottom: 30px;
+}
+
 
 .textarea {
   display: inline-block;
-  width: 456px;
-  height: 210px;
+  width: calc(50% - 15px);
+    /* height: 210px; */
   border: none;
   border-radius: 3px;
   resize: none;
   overflow: auto;
-
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
   font-style: normal;
