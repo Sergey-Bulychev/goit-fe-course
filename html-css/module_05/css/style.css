@@ -198,7 +198,7 @@ header::after {
   left: 10px;
   width: 235px;
   height: 265px;
-  z-index: 1;
+   z-index: 1;
 }
 
 .icon {
