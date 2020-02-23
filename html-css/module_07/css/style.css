@@ -234,7 +234,7 @@ nav {
   width: 100%;
   padding: 20px 0 20px 0;
   /* height: 54px; */
-  border: none;
+  border: 2px solid #ffffff;
   border-radius: 3px;
   padding-left: 20px;
 
@@ -243,7 +243,7 @@ nav {
   font-style: normal;
   font-weight: 700;
   line-height: 17px;
-  color: #bbbbbb;
+  color: #64acf6;
   letter-spacing: -0.35px;
   text-transform: uppercase;
 }
@@ -252,10 +252,28 @@ nav {
 }
 
 
+.user-date::placeholder{
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 17px;
+  color: #bbbbbb;
+
+}
+
+
+.user-date input[required]:invalid{
+ border-color: #ec1313;
+}
+
+.user-date input[required]:valid{
+  border:2px solid #1cb936;
+}
+
 .textarea {
   display: inline-block;
   width: calc(50% - 15px);
-    /* height: 210px; */
   border: none;
   border-radius: 3px;
   resize: none;
@@ -265,15 +283,23 @@ nav {
   font-style: normal;
   font-weight: 700;
   line-height: 17px;
-  color: #bbbbbb;
+  color: #64acf6;
   letter-spacing: -0.35px;
   text-transform: uppercase;
+  
 }
 
 .textarea::placeholder {
   padding: 0;
   padding-left: 20px;
   padding-top: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 17px;
+  color: #bbbbbb;
+
 }
 .send {
   display: block;
