@@ -233,17 +233,15 @@ nav {
  
   width: 100%;
   padding: 20px 0 20px 0;
-  /* height: 54px; */
   border: 2px solid #ffffff;
   border-radius: 3px;
   padding-left: 20px;
-
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 700;
   line-height: 17px;
-  color: #64acf6;
+  color: #121213;
   letter-spacing: -0.35px;
   text-transform: uppercase;
 }
@@ -259,15 +257,15 @@ nav {
   font-weight: 700;
   line-height: 17px;
   color: #bbbbbb;
-
+  
 }
 
 
-.user-date input[required]:invalid{
+.user-date input[required]:focus:invalid{
  border-color: #ec1313;
 }
 
-.user-date input[required]:valid{
+.user-date input[required]:focus:valid{
   border:2px solid #1cb936;
 }
 
@@ -283,10 +281,10 @@ nav {
   font-style: normal;
   font-weight: 700;
   line-height: 17px;
-  color: #64acf6;
+  color: #121213;
   letter-spacing: -0.35px;
   text-transform: uppercase;
-  
+    
 }
 
 .textarea::placeholder {
