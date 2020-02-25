@@ -162,7 +162,7 @@ span {
   position: relative;
   background: #95e1d3;
   margin-bottom: 30px;
-  transition: transform 2000ms linear;
+  transition: transform 400ms linear;
 }
 .img img{
   display: block;
@@ -171,7 +171,7 @@ span {
 .card:hover img {
   transform: translate(-10px, -10px);
   opacity: 1;
-  transition: transform 300ms linear;
+  transition: transform 400ms linear;
 }
 .card:hover .grad {
   transform: translate(-10px, -10px);
