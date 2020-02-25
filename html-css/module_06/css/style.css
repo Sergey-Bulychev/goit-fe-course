@@ -13,8 +13,8 @@ nav {
   justify-content: space-between;
 }
 .site-logo {
-  display: flex;
-  font-family: "Montserrat", sans-serif;
+  display:flex;
+  font-family: "Montserrat",sans-serif;
   font-size: 30px;
   line-height: 36px;
   font-weight: 700;
