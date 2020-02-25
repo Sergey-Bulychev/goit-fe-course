@@ -164,9 +164,14 @@ span {
   margin-bottom: 30px;
   transition: transform 2000ms linear;
 }
+.img img{
+  display: block;
+}
+
 .card:hover img {
   transform: translate(-10px, -10px);
   opacity: 1;
+  transition: transform 300ms linear;
 }
 .card:hover .grad {
   transform: translate(-10px, -10px);
@@ -278,21 +283,26 @@ footer {
   font-size: 15px;
   line-height: 24px;
   color: #cccccc;
+  font-style: italic;
+  padding-left: 10px;
+
 }
 
 .footer-email {
   font-family: "Roboto", sans-serif;
-
+  padding-left: 10px;
   width: 230px;
   height: 40px;
+  border: 1px solid #cccccc;
   border-right: 0px;
   font-size: 15px;
   line-height: 24px;
-  color: #448bf7 ;
+  color: #1d1e20 ;
    font-family: "Roboto", sans-serif;
   
-
 }
+
+
 .footer-botton {
   width: 150px;
   height: 45px;
@@ -304,7 +314,11 @@ footer {
   color: #ffffff;
   text-transform: uppercase;
   margin-left: -7px;
+  text-align: center;
 }
+
+
+
 
 
 
