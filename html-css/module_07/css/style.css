@@ -217,9 +217,9 @@ nav {
 .form-send {
   display: flex;
   justify-content: space-between;
-  /* min-width: 940px; */
+ 
   margin-bottom: 35px;
-  /* height: 210px; */
+  
 }
 .user-date {
   display: flex;
@@ -227,7 +227,7 @@ nav {
   justify-content: space-between;
   align-items: baseline;
   width: calc(50% - 15px);
-  /* height: 210px; */
+  
 }
 .user-date input {
  
@@ -243,21 +243,21 @@ nav {
   line-height: 17px;
   color: #121213;
   letter-spacing: -0.35px;
-  text-transform: uppercase;
+  
 }
 .user-date input:nth-child(-n + 2){
   margin-bottom: 30px;
 }
 
 
-.user-date::placeholder{
+.user-date input::placeholder{
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 700;
   line-height: 17px;
   color: #bbbbbb;
-  
+  text-transform: uppercase;
 }
 
 
@@ -283,7 +283,7 @@ nav {
   line-height: 17px;
   color: #121213;
   letter-spacing: -0.35px;
-  text-transform: uppercase;
+ 
     
 }
 
@@ -297,7 +297,7 @@ nav {
   font-weight: 700;
   line-height: 17px;
   color: #bbbbbb;
-
+  text-transform: uppercase;
 }
 .send {
   display: block;
