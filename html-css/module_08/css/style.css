@@ -284,36 +284,11 @@
     width: 942px;
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    /* margin: auto; */
-    /* flex-wrap: inherit; */
-    align-content: space-between;
+    justify-content: space-between;
+    
   }
-
-  /* .partner1,
-  .partner2,
-  .partner3,
-  .partner4 {
-    display: flex;
-    flex-direction: column;
-  } */
-  /* .title-partner{
-    order: 0;
-  }
-  .partner1 {
-    order: 1;
-  }
-  .partner2 {
-    order: 3;
-  }
-  .partner3 {
-    order: 2;
-  }
-  .partner4 {
-    order: 4;
-  }
-  .see-other{
-    order: 5;
-  } */
+.title-partner{
+  width: 100%;
+}
+ 
 }
