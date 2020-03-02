@@ -3,11 +3,12 @@
   padding: 0;
   box-sizing: border-box;
 }
-/* .container {
+.container {
   min-width: 320px;
-  margin: 0 auto;
-  height: auto;
-} */
+  padding: 0;
+  /* margin: 0 auto;
+  height: auto; */
+}
 
 .image {
   background-image: url("../img/Mobile.jpg");
@@ -280,9 +281,19 @@
 @media screen and (min-width: 992px) {
   .container {
     min-width: 960px;
+    max-width: none;
   }
   .image {
     background-image: url("../img/Desktop.jpg");
+    background-position: top center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+    background-size: cover;
+    /* min-width: auto; */
+    /* height: auto; */
+    /* height: 700px; */
   }
   .navigation {
     width: 940px;
