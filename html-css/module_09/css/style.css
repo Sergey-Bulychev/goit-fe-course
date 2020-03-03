@@ -6,6 +6,7 @@
 .container {
   min-width: 320px;
   padding: 0;
+  max-width: 767px;
   /* margin: 0 auto;
   height: auto; */
 }
@@ -211,11 +212,13 @@
 @media screen and (min-width: 768px) and (max-width: 991.98px) {
   .container {
     min-width: 768px;
+    max-width: 991.98px
   }
   .image {
     background-image: url("../img/Tablet.jpg");
     background-position: top center;
     background-repeat: no-repeat;
+    background-size: cover;
     height: 700px;
   }
   .navigation {
