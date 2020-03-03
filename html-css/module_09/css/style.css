@@ -287,13 +287,11 @@
     background-image: url("../img/Desktop.jpg");
     background-position: top center;
     background-repeat: no-repeat;
-    -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
+    
     background-size: cover;
     /* min-width: auto; */
     /* height: auto; */
-    /* height: 700px; */
+    height: 700px;
   }
   .navigation {
     width: 940px;
