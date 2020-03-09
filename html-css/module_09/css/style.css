@@ -10,7 +10,10 @@
   /* margin: 0 auto;
   height: auto; */
 }
-
+.row{
+  margin-left: 0;
+  margin-right: 0;
+}
 .image {
   background-image: url("../img/Mobile.jpg");
   background-position: top center;
