@@ -1,0 +1,123 @@
+.banner {
+  display: block;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1130px;
+  background-image: linear-gradient(
+      360deg,
+      rgba(252, 227, 138, 0.9) 0%,
+      rgba(243, 129, 129, 0.9) 100%
+    ),
+    url(../images/banner-min.png);
+}
+
+.nav-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 40px;
+
+  &__logo {
+    text-decoration: none;
+    font-size: var(--fs-30);
+    font-family: 'Montserrat';
+    color: var(--coler-menu);
+    font-weight: bold;
+    transition: color 200ms linear;
+    line-height: 1.2;
+
+    &:hover {
+      color: var(--coler-header-hover);
+    }
+  }
+}
+
+.nav-menu__list {
+  display: flex;
+  min-width: 610px;
+  list-style: none;
+  justify-content: space-between;
+
+  &__link {
+    display: block;
+    text-decoration: none;
+    font-size: var(--fs-14);
+    font-family: 'Montserrat';
+    color: var(--coler-menu);
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+    transition: color 200ms linear;
+
+    &__link:hover {
+      color: var(--coler-header-hover);
+    }
+  }
+}
+
+.nav-menu__link:hover::after {
+  opacity: 1;
+}
+
+.nav-menu__link::after {
+  display: flex;
+  background-color: rgb(252, 227, 138);
+  content: '';
+  min-width: 20px;
+  max-width: 70px;
+  height: 3px;
+  opacity: 0;
+  margin: 5px 0;
+  transition: opacity 200ms linear, color 200ms linear;
+}
+
+.nav-menu__icon {
+  width: 18px;
+  height: 15px;
+  fill: var(--coler-menu);
+}
+
+.nav-menu__icon:hover {
+  fill: var(--coler-header-hover);
+}
+
+.creative {
+  margin: 0 auto;
+  padding-top: 185px;
+  width: 820px;
+  text-align: center;
+}
+
+.creative__title {
+  font-size: var(--fs-72);
+  font-family: 'Kaushan Script', cursive;
+  color: var(--coler-menu);
+  line-height: 1.2;
+  padding-bottom: 65px;
+}
+
+.creative__title-text {
+  display: block;
+  font-size: 150px;
+  font-family: 'Montserrat';
+  color: var(--coler-menu);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 0.933;
+}
+
+.button__more {
+  width: 155px;
+  height: 40px;
+  border: 3px solid rgb(255, 255, 255);
+  font-size: var(--fs-14);
+  font-family: 'Montserrat';
+  color: var(--coler-menu);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: center;
+  margin-top: 125px;
+  background: none;
+}
